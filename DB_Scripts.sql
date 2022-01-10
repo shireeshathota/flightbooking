@@ -5,7 +5,7 @@ insert into FlightBD values(1,'ABC12','Indigo',4500,30-12-2020,'HYD','America','
 insert into FlightBD values(2,'XYZ34','Spicezet',5500,30-01-2021,'HYD','Dubai','Boeing',12,180);
 select * from FlightBD;
 
-create table CustflightDetails 
+create table CustflightDetails
 (Cust_id int AUTO_INCREMENT PRIMARY KEY,Cust_Name varchar(30),Email_Id varchar(40),Contact_num int,Address varchar(30),
 F_ID int,F_Code varchar(20),F_Name varchar(20),Price int,DepartureDateTime varchar(20), origin varchar(30),
 Destination varchar(30),PlaneType varchar(20),Booking_status varchar(30),Booking_date varchar(20),Booking_seat varchar(10),eticket int);
